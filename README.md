@@ -1,86 +1,107 @@
 # Fluetro OS
 
-A clean (kinda) customizable WebOS. Like my other project: Fluent New Tab, this is also inspired heavily by Microsoft Fluent Design System and macOS versions before Tahoe. 
+Fluetro OS is a simple customizable WebOS inspired by the Microsoft Fluent Design System and older versions of macOS.
 
-## How does it look?
+## Screenshots
 
-### Boot Screen:
+### Boot Screen
+
 <img width="1920" height="1080" alt="Screenshot 2026-09-10 215800" src="https://github.com/user-attachments/assets/4e8725d0-dec3-4e5e-9fe7-03ca8bc61876" />
 
-### Logon/Welcome Screen:
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3bcd2130-6df8-4c7c-9941-93881acfd84f" />
+### Welcome Screen
 
-### Light Mode:
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f415d4ff-5026-458d-a92a-f43184cd7b6a" />
+![Welcome Screen](https://github.com/user-attachments/assets/3bcd2130-6df8-4c7c-9941-93881acfd84f)
 
-### Dark Mode:
-<img width="1920" height="1080" alt="Screenshot 2026-09-10 230721" src="https://github.com/user-attachments/assets/2b7b20aa-287c-4ffa-96fb-6704e8438554" />
+### Light Mode
 
-[![Run FluetroOS](https://img.shields.io/badge/run-os-brightgreen?style=for-the-badge)](https://fluetro-os-snowy.vercel.app/)
+![Light Mode](https://github.com/user-attachments/assets/f415d4ff-5026-458d-a92a-f43184cd7b6a)
 
-## How to use?
--Just click the Run OS link and that's it
+### Dark Mode
 
-## What features does it have?
-- A consistent design language, inspired by Windows 11 and MacOS 
-- macOS style Top Bar with Date and weather, which also have working flyouts
-- macOS style dock for apps
-- Smooth and consistent animations
-- Sign out, shut down and restart screens
-- Shut down feature that can actually close the Browser Tab after the sequence
-- A Memo so you can note down your thoughts
-- Working Paint app
-- A calculator app that can do basic calculations.
-- Working Browser
-- AI Brief (inspired by Samsung Now Brief)
-- Games: Minesweeper, 2048, Dino Runner, Surf, and Minecraft Classic
-- Automatic accent colors based on the selected wallpaper
-- The OS itself doesn't require any permissions
-### Privacy Note
-- The AI Brief currently requests location information. If location permission is not provided, its weather/location functionality may fall back to IP-based location detection. This is not ideal for Fluetro's privacy-focused design, and it will be fixed in a future update.
+![Dark Mode](https://github.com/user-attachments/assets/2b7b20aa-287c-4ffa-96fb-6704e8438554)
 
-## How can I run it locally and modify it?
-   Easy, just do this:
-   ```bash
-   git clone https://github.com/Tan5dev/Fluetro-OS.git
-   cd fluetro-os
+[Run Fluetro OS](https://fluetro-os-snowy.vercel.app/)
+
+## How to Use
+
+Just open the **Run Fluetro OS** link above and start using it.
+
+## Features
+
+* Fluent-style UI inspired by Windows 11 and macOS
+* macOS-style top bar with date and weather
+* macOS-style app dock
+* Light and dark mode
+* Smooth animations
+* Sign out, restart and shutdown screens
+* Shutdown can close the browser tab
+* Memo app for notes
+* Paint app
+* Calculator
+* Browser
+* AI Brief
+* Minesweeper
+* 2048
+* Dino Runner
+* Surf
+* Minecraft Classic
+* Automatic accent colors based on the wallpaper
+* User preferences saved locally
+* No browser permissions required by the main OS
+
+## Privacy
+
+The AI Brief currently uses location information for weather and location features.
+
+If location permission is not given, it can fall back to IP-based location detection. This may be improved in a future update.
+
+Other settings such as wallpapers, dark mode and Memo content are stored locally in the browser.
+
+## Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Tan5dev/Fluetro-OS.git
+cd Fluetro-OS
 ```
-then open index.html in your browser to run locally
-or open the folder in VS Code or any other editor to modify
 
-## How does it work?
-Fluetro OS is built with HTML, CSS and JavaScript, where the Memo content, Weather Location and user preferences (like Dark Mode and Wallpaper) are stored locally using localStorage. The weather data is fetched using Open-Meteo.
-   
-## Whom to Credit for the assets?
-- [Arindam Saha](https://unsplash.com/@hyperickz) on Unsplash for the Default Foggy mountain Wallpaper
-- [Benjamin Voros](https://unsplash.com/@vorosbenisop) on Unsplash for the Starry mountain Wallpaper
-- [Bogdan Pasca](https://unsplash.com/@bogdipasca) on Unsplash for the House near shore Wallpaper
-- [Joshua Woroniecki](https://unsplash.com/@joshuaworoniecki) on Unsplash for the Trees under stars Wallpaper
-- [Icons8](https://icons8.com) for the dock icons
-- [Lucide](https://lucide.dev) for the various UI icons and symbols
-- [One UI MASTER](https://www.reddit.com/user/EmergencyMelodic9443/) for the AI Brief app
+Then open `index.html` in your browser.
 
-## Any Features planned for the Future?
-Of course
-- The Files app to browse well... files (work in progress)
-- Maybe a Music Player
-- More UI Polish and animations
-- Possibly more games
-- Animations for Maximize/Restore Down
-- More customization options
-- Maybe a Terminal
-- Maybe a python-based coding app
+You can also open the project folder in VS Code or another editor to modify it.
 
-### What's already done in this update:
-- Games
-- A working Browser (work in progress)
-- AI Brief (inspired by Samsung's Now Brief)
-- More consistent UI and use of accent colors
-  
-## Are There some issues?
-Yes
-- There is no animation for Maximize/Restore Down
-- Files is still a Work in Progress, I just included it, so it feels fuller
-- Since it doesn't require any browser permissions you have to add the Weather Location by yourself
-- Weather and Minesweeper use emojis for icons, so they're not consistent across different operating systems.
-- Paint app starts with the default theme as retro, doesn't follow OS Dark Mode and should be changed via Extras>Themes for consistency
+## How It Works
+
+Fluetro OS is made using:
+
+* HTML
+* CSS
+* JavaScript
+* localStorage
+* Open-Meteo
+
+User preferences, wallpaper settings and Memo content are stored using `localStorage`.
+
+Weather data is provided by Open-Meteo.
+
+## Credits
+
+* [Arindam Saha](https://unsplash.com/@hyperickz) — Default foggy mountain wallpaper
+* [Benjamin Voros](https://unsplash.com/@vorosbenisop) — Starry mountain wallpaper
+* [Bogdan Pasca](https://unsplash.com/@bogdipasca) — House near shore wallpaper
+* [Joshua Woroniecki](https://unsplash.com/@joshuaworoniecki) — Trees under stars wallpaper
+* [Icons8](https://icons8.com) — Dock icons
+* [Lucide](https://lucide.dev) — UI icons and symbols
+* [One UI MASTER](https://www.reddit.com/user/EmergencyMelodic9443/) — AI Brief inspiration
+
+## Planned Features
+
+* Files app
+* Music player
+* More UI improvements
+* More animations
+* More games
+* Maximize/Restore animations
+* More customization
+* Terminal
+* Possible Python coding app
