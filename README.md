@@ -16,7 +16,7 @@ A clean (kinda) customizable WebOS. Like my other project: Fluent New Tab, this 
 ### Dark Mode:
 <img width="1920" height="1080" alt="Screenshot 2026-09-10 230721" src="https://github.com/user-attachments/assets/2b7b20aa-287c-4ffa-96fb-6704e8438554" />
 
-[![Run FluetroOS](https://img.shields.io/badge/run-os-brightgreen?style=for-the-badge)](https://fluetro-os.vercel.app/)
+[![Run FluetroOS](https://img.shields.io/badge/run-os-brightgreen?style=for-the-badge)](https://fluetro-os-snowy.vercel.app/)
 
 ## How to use?
 -Just click the Run OS link and that's it
@@ -42,7 +42,7 @@ A clean (kinda) customizable WebOS. Like my other project: Fluent New Tab, this 
 ## How can I run it locally and modify it?
    Easy, just do this:
    ```bash
-   git clone https://github.com/TonyStark965-404/Fluetro-OS.git
+   git clone https://github.com/Tan5dev/Fluetro-OS.git
    cd fluetro-os
 ```
 then open index.html in your browser to run locally
